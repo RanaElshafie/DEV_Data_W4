@@ -1,0 +1,48 @@
+---
+title: "Shiny Application and Reproducible Pitch"
+author: "Rana Elshafie"
+date: "10-8-2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Diamond Analysis Report
+Diamond Data Analysis Report enable developing data products using shiny apps being embedded within RMarkDown.
+
+Using PageUp and PageDown keys  slides can be traversed.
+
+## Application Overview
+
+- Diamonds Properties could be analyzed using several Parameters.
+- Carat,Price,sample size,color Depth are some of the common parameters.
+- This Report enables to pick the right parameters for the best Diamond selection.
+
+
+## Slide with Complete Reporting Appliaction
+
+Click the Below Link for the Application.
+
+https://github.com/RanaElshafie/DEV_Data_W4
+
+Click the link below for compiled project files on gitub repo.
+
+https://github.com/RanaElshafie/DEV_Data_W4
+
+## Data Used
+The data used for this application is diamonds data set, which is part of ggplot2 package. Containing information about 53940 diamonds with 10 variables.
+
+```{r, echo=TRUE}
+library("ggplot2")
+head(diamonds)
+```
+
+
+
+
+
+
+
+
